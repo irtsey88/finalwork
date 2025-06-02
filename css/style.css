@@ -5,6 +5,10 @@
   box-sizing: border-box;
 }
 
+* {
+  outline: 1px solid red;
+}
+
 body {
   font-family: "Noto Sans", sans-serif;
 }
@@ -97,9 +101,9 @@ body {
     font-weight: bold;
 }
 
-.a {
+.title {
     font-size: 28px;
-    font-weight: bold;
+    font-weight: 700;
     margin-top: 8px;
 }
 
@@ -215,7 +219,7 @@ padding: 8px 16px;
 
 @media (max-width: 767px) {
  .wrap {
-    width: 100%;
+    max-width: 100%;
     
   }
 
@@ -247,8 +251,8 @@ padding: 8px 16px;
   .content {
     width: 100%;
     margin-top: 32px;
-    margin-left:2%;
-    margin-right:2%;
+    padding-left:2%;
+    padding-right:2%;
   }
 
   .text1 {
@@ -268,7 +272,7 @@ padding: 8px 16px;
     padding: 8px 10px;
   }
 
-  .a {
+  .title {
     font-size: 26px;
   }
 
@@ -278,11 +282,7 @@ padding: 8px 16px;
   }
 
   .footer {
-    flex-direction: column;
-    align-items: center;
-    padding: 40px 16px;
-    font-size: 18px;
-    text-align: center;
+    display:none;
   }
 
   .pagination {
@@ -304,7 +304,7 @@ padding: 8px 16px;
 
 @media (max-width: 375px) {
  .wrap {
-    width: 100%;
+    max-width: 100%;
     
   }
 
@@ -326,8 +326,8 @@ padding: 8px 16px;
     font-size:24px;
   }
   time,.tag_group,.title{
-    margin-left:2%;
-    margin-right:2%;
+    padding-left:2%;
+    padding-right:2%;
   }
   
   .title{
@@ -340,8 +340,8 @@ padding: 8px 16px;
   .content {
     width: 100%;
     margin-top: 32px;
-    margin-left:2%;
-    margin-right:2%;
+    padding-left:2%;
+    padding-right:2%;
   }
 
   .text1 {
@@ -372,11 +372,7 @@ padding: 8px 16px;
   }
 
   .footer {
-    flex-direction: column;
-    align-items: center;
-    padding: 40px 16px;
-    font-size: 18px;
-    text-align: center;
+    display:none;
   }
 
   .pagination {
