@@ -243,9 +243,10 @@ body {
 @media (max-width: 767px) {
   .wrap {
     width: 100%;
+    height: auto;
   }
 
-  .nav_top li {
+  .nav li {
     font-size: 24px;
   }
 
@@ -253,8 +254,8 @@ body {
     flex-direction: column;
   }
 
-  .header_left,
-  .header_right {
+  .left,
+  .right {
     width: 100%;
   }
 
@@ -271,6 +272,7 @@ body {
 
   .title {
     margin-bottom: 10%;
+    font-size: 26px
   }
 
 
@@ -301,11 +303,6 @@ body {
     font-size: 14px;
     padding: 8px 10px;
   }
-
-  .title {
-    font-size: 26px;
-  }
-
   .emphasis {
     font-size: 14px;
     padding: 16px;
@@ -334,11 +331,10 @@ body {
 
 @media (max-width: 375px) {
   .wrap {
-    width: 100%;
-
+  max-width: 100%;
   }
 
-  .nav_top li {
+  .nav li {
     font-size: 24px;
     gap: 8px;
   }
@@ -348,8 +344,8 @@ body {
     gap: 16px;
   }
 
-  .header_left,
-  .header_right {
+  .left,
+  .right {
     width: 100%;
   }
 
@@ -366,6 +362,7 @@ body {
 
   .title {
     margin-bottom: 10%;
+    font-size: 26px;
   }
 
   .text {
@@ -400,11 +397,6 @@ body {
     font-size: 14px;
     padding: 8px 10px;
   }
-
-  .title {
-    font-size: 26px;
-  }
-
   .emphasis {
     font-size: 14px;
     padding: 16px;
